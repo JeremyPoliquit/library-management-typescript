@@ -14,7 +14,7 @@ const SidebarProfile: React.FC = () => {
       {/* === Profile Section === */}
       <div className="flex flex-col items-center">
         <Avatar className="w-16 h-16">
-          <AvatarImage src="https://github.com/shadcn.png" />
+          <AvatarImage src="/assets/profile.png" />
         </Avatar>
         <h1 className="text-xl font-semibold">Justin</h1>
         <h3 className="text-sm text-gray-500">@Tadaiki</h3>

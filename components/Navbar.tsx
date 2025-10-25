@@ -66,7 +66,7 @@ export default function Navbar() {
           <div className="flex items-center gap-2">
             <LogOut size={28} strokeWidth={2} className="text-gray-700" />
             <Avatar className="w-12 h-12">
-              <AvatarImage src="https://github.com/shadcn.png" />
+              <AvatarImage src="/assets/profile.png" />
             </Avatar>
           </div>
         </div>
@@ -110,7 +110,7 @@ export default function Navbar() {
               {/* Avatar + Name */}
               <div className="flex items-center gap-3">
                 <Avatar>
-                  <AvatarImage src="https://github.com/shadcn.png" />
+                  <AvatarImage src="/assets/profile.png" />
                 </Avatar>
                 <span className="text-sm font-medium">Justin</span>
               </div>
